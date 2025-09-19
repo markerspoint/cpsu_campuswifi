@@ -35,13 +35,19 @@
                 </div>
                 <form action="#" method="post">
                   <div class="form-group first">
-                    <label class="label" for="username">Username</label>
-                    <input type="text" class="form-control" id="username">
-
+                    <div class="input-with-icon">
+                      <span class="icon-user"></span>
+                      <input type="text" class="form-control" id="username" placeholder="Username">
+                      <label for="username"></label>
+                    </div>
                   </div>
+
                   <div class="form-group last mb-4">
-                    <label class="label" for="password">Password</label>
-                    <input type="password" class="form-control" id="password">
+                    <div class="input-with-icon">
+                      <span class="icon-lock"></span>
+                      <input type="password" class="form-control" id="password" placeholder="Password">
+                      <label for="password"></label>
+                    </div>
                   </div>
                   <input type="submit" value="Log In" class="btn btn-pill text-white btn-block btn-primary">
 
